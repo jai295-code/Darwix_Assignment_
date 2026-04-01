@@ -25,7 +25,7 @@ The Empathy Engine analyzes the emotional content of any text and dynamically mo
 
 ```bash
 git clone https://github.com/jai295-code/Darwix_Assignment_
-cd Darwix
+cd Darwix_Assignment_
 
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
