@@ -25,8 +25,8 @@ The Empathy Engine analyzes the emotional content of any text and dynamically mo
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/jai295-code/Darwix_AI_Assignment
-cd empathy-engine
+git clone https://github.com/jai295-code/Darwix
+cd Darwix
 
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
