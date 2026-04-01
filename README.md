@@ -10,13 +10,12 @@ The Empathy Engine analyzes the emotional content of any text and dynamically mo
 
 | Feature | Details |
 |---|---|
-| **6 + 1 Emotions** | Joy, Sadness, Anger, Fear, Surprise, Inquisitive, Neutral |
+| **7 Emotions** | Joy, Sadness, Anger, Fear, Surprise, Inquisitive, Neutral |
 | **Intensity Scaling** | Soft "this is good" vs explosive "BEST NEWS EVER!!" |
 | **3 Voice Parameters** | Rate (speed), Pitch (semitones), Volume |
 | **SSML Output** | Full Speech Synthesis Markup Language generation |
 | **Web UI** | Clean, live-updating browser interface with embedded player |
 | **CLI** | Interactive or single-shot terminal usage |
-| **Fallback Chain** | espeak → gTTS → pyttsx3 → tone WAV (always produces audio) |
 
 ---
 
@@ -127,7 +126,7 @@ The engine produces [SSML](https://www.w3.org/TR/speech-synthesis/) markup using
 ## 📁 Project Structure
 
 ```
-empathy-engine/
+Darwix/
 ├── app.py              # Flask server + emotion engine + synthesis pipeline
 ├── cli.py              # Command-line interface
 ├── requirements.txt    # Python dependencies
@@ -187,7 +186,3 @@ Full pipeline — emotion detection + audio generation.
 - **SSML output** — Even when using local TTS, SSML is generated so the project is ready to plug into cloud TTS APIs for production-quality voices.
 
 ---
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
